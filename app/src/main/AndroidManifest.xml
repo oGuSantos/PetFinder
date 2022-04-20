@@ -12,8 +12,7 @@
         <activity
             android:name=".FeedActivity"
             android:exported="false"
-            android:label="@string/title_activity_feed"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"/>
+            android:label="@string/title_activity_feed"/>
         <activity
             android:name=".RegistrarActivity"
             android:exported="false"
