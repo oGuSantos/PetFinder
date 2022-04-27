@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -22,7 +23,12 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void opnFeed(View V){
-        Intent myIntent = new Intent(HomeActivity.this, FeedActivity.class);
-        HomeActivity.this.startActivity(myIntent);
+        try {
+            //Toast.makeText(this, "Foi", Toast.LENGTH_SHORT).show();
+            this.startActivity(new Intent(HomeActivity.this, FeedActivity.class));
+        } catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();
+        }
     }
 }

@@ -1,16 +1,16 @@
-package GsCg.petfinder.ui.slideshow;
+package GsCg.petfinder.ui.findpet;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class SlideshowViewModel extends ViewModel {
+public class FindViewModel extends ViewModel {
 
     private final MutableLiveData<String> mText;
 
-    public SlideshowViewModel() {
+    public FindViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("This is findpet fragment");
     }
 
     public LiveData<String> getText() {

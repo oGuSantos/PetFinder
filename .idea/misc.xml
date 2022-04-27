@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/layout/activity_feed.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/layout/activity_scrolling.xml" value="0.2015625" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/layout/app_bar_feed.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/layout/content_feed.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/layout/content_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/layout/content_scrolling.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/layout/feed.xml" value="0.1" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/layout/fragment_feed.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/layout/fragment_notificar.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/layout/home.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/layout/registrar.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/menu/feed.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/Gustavo/Git/PetFinder/app/src/main/res/menu/menu_feed.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/gusta/AndroidStudioProjects/PetFinder/app/src/main/res/drawable/vdlogo.xml" value="0.279" />
         <entry key="..\:/Users/gusta/AndroidStudioProjects/PetFinder/app/src/main/res/layout/App LocDog.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/gusta/AndroidStudioProjects/PetFinder/app/src/main/res/layout/activity_main.xml" value="0.1" />

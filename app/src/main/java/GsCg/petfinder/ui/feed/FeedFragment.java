@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import GsCg.petfinder.databinding.FragmentHomeBinding;
+import GsCg.petfinder.databinding.FragmentFeedBinding;
 
-public class HomeFragment extends Fragment {
+public class FeedFragment extends Fragment {
 
-    private FragmentHomeBinding binding;
+    private FragmentFeedBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        FeedViewModel feedViewModel =
+                new ViewModelProvider(this).get(FeedViewModel.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentFeedBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        feedViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

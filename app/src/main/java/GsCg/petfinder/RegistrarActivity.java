@@ -15,8 +15,6 @@ public class RegistrarActivity extends AppCompatActivity {
     }
 
     public void opnHome(View V){
-//        Intent myIntent = new Intent( RegistrarActivity.this, HomeActivity.class);
-//        RegistrarActivity.this.startActivity(myIntent);
         this.finish();
     }
 }

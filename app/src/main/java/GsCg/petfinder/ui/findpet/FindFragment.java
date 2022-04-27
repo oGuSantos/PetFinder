@@ -1,4 +1,4 @@
-package GsCg.petfinder.ui.slideshow;
+package GsCg.petfinder.ui.findpet;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import GsCg.petfinder.databinding.FragmentSlideshowBinding;
+import GsCg.petfinder.databinding.FragmentFindBinding;
 
-public class SlideshowFragment extends Fragment {
+public class FindFragment extends Fragment {
 
-    private FragmentSlideshowBinding binding;
+    private FragmentFindBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        SlideshowViewModel slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
+        FindViewModel findViewModel =
+                new ViewModelProvider(this).get(FindViewModel.class);
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+        binding = FragmentFindBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textSlideshow;
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        findViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

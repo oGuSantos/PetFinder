@@ -1,4 +1,4 @@
-package GsCg.petfinder.ui.gallery;
+package GsCg.petfinder.ui.lostpet;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import GsCg.petfinder.databinding.FragmentGalleryBinding;
+import GsCg.petfinder.databinding.FragmentLostBinding;
 
-public class GalleryFragment extends Fragment {
+public class LostFragment extends Fragment {
 
-    private FragmentGalleryBinding binding;
+    private FragmentLostBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        LostViewModel lostViewModel =
+                new ViewModelProvider(this).get(LostViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = FragmentLostBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        lostViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 

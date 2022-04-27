@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="GsCg.petfinder">
+    package="GsCg.petfinder" >
 
     <application
         android:allowBackup="true"
@@ -8,11 +8,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PetFinder">
+        android:theme="@style/Theme.PetFinder" >
         <activity
             android:name=".FeedActivity"
             android:exported="false"
-            android:label="@string/title_activity_feed"/>
+            android:label="@string/title_activity_feed"
+            android:theme="@style/Theme.PetFinder.NoActionBar" />
         <activity
             android:name=".RegistrarActivity"
             android:exported="false"
@@ -20,7 +21,7 @@
         <activity
             android:name=".HomeActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
