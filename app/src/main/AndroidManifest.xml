@@ -16,12 +16,10 @@
             android:theme="@style/Theme.PetFinder.NoActionBar" />
         <activity
             android:name=".RegistrarActivity"
-            android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+            android:exported="false"/>
         <activity
             android:name=".HomeActivity"
-            android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

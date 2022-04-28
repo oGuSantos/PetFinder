@@ -22,8 +22,8 @@
     <EditText
         android:id="@+id/etxNameRg"
         android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_marginTop="100dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="60dp"
         android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="Nome"
@@ -32,20 +32,21 @@
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/logo"
         app:layout_constraintStart_toStartOf="@+id/logo"
-        app:layout_constraintTop_toBottomOf="@+id/logo" />
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/etxPsswodRg"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginTop="30dp"
         android:backgroundTint="@color/white"
         android:ems="10"
         android:hint="Senha"
-        android:textColorHint="@color/white"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textColor="@color/white"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="@+id/logo"
         app:layout_constraintStart_toStartOf="@+id/logo"
         app:layout_constraintTop_toBottomOf="@+id/etxNameRg" />
@@ -53,7 +54,7 @@
     <Button
         android:id="@+id/btnLoginHm"
         android:layout_width="wrap_content"
-        android:layout_height="48dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="100dp"
         android:backgroundTint="#1171E1"
         android:minWidth="48dp"
