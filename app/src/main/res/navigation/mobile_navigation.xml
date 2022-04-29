@@ -3,23 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_feed">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_feed"
         android:name="GsCg.petfinder.ui.feed.FeedFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_feed" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_lostpet"
         android:name="GsCg.petfinder.ui.lostpet.LostFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_lost" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_findpet"
         android:name="GsCg.petfinder.ui.findpet.FindFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_find" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="GsCg.petfinder.ui.notification.NotiFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_find" />
 

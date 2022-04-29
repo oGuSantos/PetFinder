@@ -10,7 +10,7 @@ public class FindViewModel extends ViewModel {
 
     public FindViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is findpet fragment");
+        mText.setValue("This is FindPet");
     }
 
     public LiveData<String> getText() {
